@@ -16,3 +16,4 @@ merged_df.to_csv("merged.csv")
 df1=pd.read_csv("merged.csv")
 df2=df1[['Number','file']]
 print(df2)
+print(df1)
